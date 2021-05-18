@@ -1,7 +1,7 @@
 package endtermexam;
 
-public class AccountUnitTest{
-	
+public class AccountUnitTest
+{
 	public static void main(String[] args)
 	{
 		Account[] accountArray = new Account[10];
@@ -17,8 +17,5 @@ public class AccountUnitTest{
 		accountArray[8] = new Savings(1876, 1.8);
 		accountArray[9] = new Savings(1978, 2);
 
-		
-		for(int i = 0; i < accountArray.length; ++i)
-			System.out.println(accountArray[i].getAccountInfo() + "\n");
-		}
+	}
 }
